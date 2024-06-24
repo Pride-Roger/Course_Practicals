@@ -1,7 +1,8 @@
-def Calculate_P(l,b):
-    P=(l+b)*2
-    return P
-l=int(input('Enter the value for length:'))
-b=int(input('Enter value for Breadth:'))
-print('Perimeter of the rectangle is',
-      Calculate_P(l,b),'cm')
+def Sum(V):
+    Num=str(V)
+    Total=0
+    for z in Num:
+        Total+=int(z)
+    return Total
+V=int(input('Enter a digit:'))
+print(Sum(V))
